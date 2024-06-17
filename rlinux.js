@@ -1,4 +1,5 @@
-   var initDot = document.getElementById("loading");
+
+var initDot = document.getElementById("loading");
    var loading = setInterval(function() {
        if(initDot.innerHTML.length == 5) {
            initDot.innerHTML = "";
